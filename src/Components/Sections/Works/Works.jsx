@@ -23,9 +23,7 @@ const worksDetail = [
 
 export const Works = () => {
     return (
-        <FullSection id="works" className="flex-col bg-gray-700 text-white px-5 lg:px-0">
-
-            <h1 className="text-3xl md:text-4xl font-semibold mb-10">My Works</h1>
+        <FullSection id="works" title="My Works" className="flex-col bg-gray-700 text-white px-5 lg:px-0">
 
             <div className="">
                 {worksDetail.map(work => (

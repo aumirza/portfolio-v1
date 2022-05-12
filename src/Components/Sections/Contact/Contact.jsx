@@ -32,12 +32,9 @@ const socials = [
 
 export const Contact = () => {
     return (
-        <FullSection id="contact" className="flex-col text-sm sm:text-base bg-gray-600 text-white">
-
-            <h1 className="text-3xl md:text-4xl font-semibold mb-10">Contact me</h1>
+        <FullSection id="contact" title="Contact me" className="text-sm sm:text-base bg-gray-600 text-white">
 
             <div className="flex flex-col items-center">
-
 
                 <div className="shadow-md rounded flex flex-col md:flex-row mb-10 lg:px-5 md:py-4 " >
 
