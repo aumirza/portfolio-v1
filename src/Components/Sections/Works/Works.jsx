@@ -31,14 +31,14 @@ export const Works = () => {
                     <div key={work.title.substring(10)} className="my-5 border-l-8 p-2 pl-5 border-blue-500 bg-slate-400 bg-opacity-30">
 
                         <div className="border-b-2 border-blue-500 inline">
-                            <h2 className="inline uppercase font-semibold lg:text-xl md:text-lg">{work.title}</h2>
+                            <h2 className="inline uppercase font-semibold lg:text-xl text-lg">{work.title}</h2>
                             <span className="font-medium"> | {work.catogary}</span>
                         </div>
 
-                        <div className="text-sm lg:text-base leading-4 mb-2 mt-2">{work.about}</div>
+                        <div className="leading-4 mb-2 mt-2">{work.about}</div>
 
-                        <div className="text-sm lg:text-base">
-                            <span className="text-blue-200 font-medium"> Tech Stack : </span>
+                        <div className="">
+                            <span className="text-blue-200 font-medium text-lg"> Tech Stack : </span>
                             <span>{work.techStack}</span>
                         </div>
 

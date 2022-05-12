@@ -15,7 +15,7 @@ export const Sidebar = ({ showSidebar }) => {
             >
                 <Profile />
             </div>
-            <div className="py-5">
+            <div className="mt-20 sm:mt-0">
                 <Nav />
             </div>
 

@@ -4,7 +4,7 @@ export const FullSection = ({ className, children, title, ...restProps }) => {
 
             {
                 title ?
-                    <h1 className="text-2xl md:text-3xl font-semibold text-center mb-10 ">
+                    <h1 className="text-5xl font-semibold text-center mb-20 ">
                         {title}
                     </h1>
                     : ""

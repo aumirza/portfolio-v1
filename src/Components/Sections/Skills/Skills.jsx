@@ -33,7 +33,7 @@ export const Skills = () => {
                     {
                         skillsCatogaries.map(skillCatog => (
                             <SwiperSlide key={skillCatog.title}>
-                                <div className="h-56 md:h-64 lg:h-72 w-56 md:w-72 lg:w-96 flex flex-col items-center py-5 text-white bg-slate-800 shadow-lg rounded">
+                                <div className="h-72 w-72 lg:w-96 flex flex-col items-center py-5 text-white bg-slate-800 shadow-lg rounded">
                                     <div className="text-2xl font-mono mb-5">{skillCatog.title}</div>
                                     <table>
                                         <tbody>

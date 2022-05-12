@@ -23,7 +23,7 @@ export const Education = () => {
     return (
         <FullSection id="education" title="Education" className="flex-col text-white bg-gray-600">
 
-            <div className="relative pt-8 px-3 md:px-0 md:w-96 lg:w-[40rem]">
+            <div className="relative px-10 md:px-0 md:w-96 lg:w-[40rem]">
 
                 <div className="absolute ml-1 h-full flex flex-col justify-between">
 
@@ -68,11 +68,11 @@ export const Education = () => {
 
                                     <div className="ml-5">
 
-                                        <h3 className='text-base md:text-lg lg:text-xl  font-semibold uppercase'>
+                                        <h3 className=' text-lg lg:text-xl  font-semibold uppercase'>
                                             {education.institution}
                                         </h3>
-                                        <span className='text-sm sm:text-base block'>{education.course}</span>
-                                        <span className='text-sm sm:text-base'>{education.place} | {education.session}</span>
+                                        <span className='text-base block'>{education.course}</span>
+                                        <span className='text-base'>{education.place} | {education.session}</span>
                                     </div>
                                 </div>
 

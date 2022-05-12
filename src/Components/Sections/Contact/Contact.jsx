@@ -40,16 +40,16 @@ export const Contact = () => {
 
                     <div className="px-5 lg:mr-5 w-68 md:w-60 lg:w-96">
 
-                        <div className="my-1 flex flex-col">
+                        <div className="my-1 flex flex-col text-lg">
                             <label htmlFor="Name">Name</label>
-                            <input className="h-5 md:h-7 lg:h-8  text-gray-800 rounded" name="Name" type="text" />
+                            <input className="h-7 lg:h-8  text-gray-800 rounded" name="Name" type="text" />
                         </div>
 
-                        <div className="my-1 flex flex-col">
+                        <div className="my-1 flex flex-col text-lg">
                             <label htmlFor="Email">Email</label>
-                            <input className="h-5 md:h-7 lg:h-8  text-gray-800 rounded" name="Email" type="text" />
+                            <input className="h-7 lg:h-8  text-gray-800 rounded" name="Email" type="text" />
                         </div>
-                        <div className="my-1 flex flex-col">
+                        <div className="my-1 flex flex-col text-lg">
                             <label htmlFor="Message">Message</label>
                             <textarea className="text-gray-800 rounded h-20 lg:h-24" name="Message" type="text" />
                         </div>
@@ -57,16 +57,16 @@ export const Contact = () => {
 
                     <div className="py-3 px-5 md:px-1 md:py-5 lg:py-8">
                         <div className="flex items-center mb-1 lg:mb-2">
-                            <FaMailBulk className="mr-2 text-xl sm:text-2xl lg:text-3xl" />
-                            <span>Mirzaahmad9028.am@gmail.com</span>
+                            <FaMailBulk className="mr-2 text-2xl lg:text-3xl" />
+                            <span className="text-xl">Mirzaahmad9028.am@gmail.com</span>
                         </div>
                         <div className="flex items-center mb-1 lg:mb-2">
-                            <FaPhone className="mr-2 text-xl sm:text-2xl lg:text-3xl" />
-                            <span>+91 9956763804</span>
+                            <FaPhone className="mr-2 text-2xl lg:text-3xl" />
+                            <span className="text-xl">+91 9956763804</span>
                         </div>
                         <div className="flex items-center mb-1 lg:mb-2">
-                            <FaAddressCard className="mr-2 text-xl sm:text-2xl lg:text-3xl" />
-                            <span>........</span>
+                            <FaAddressCard className="mr-2 text-2xl lg:text-3xl" />
+                            <span className="text-xl">........</span>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ export const Contact = () => {
 
                             <span key={social.link} className="mx-2 lg:mx-3 hover:scale-110 duration-200">
                                 <a href={'https://' + social.link + '/' + social.username}>
-                                    <social.icon className="text-2xl md:text-3xl lg:text-4xl" />
+                                    <social.icon className="text-3xl lg:text-4xl" />
                                 </a>
                             </span>
                         ))

@@ -7,9 +7,9 @@ export const HeaderInfo = () => {
 
             <div className="text-center md:text-left">
 
-                <span className="text-xl lg:text-2xl">Hi, myself</span>
+                <span className="text-2xl lg:text-3xl">Hi, myself</span>
 
-                <div className="text-2xl lg:text-3xl">
+                <div className="text-3xl lg:text-4l">
                     <Typed strings={["Ahmadullah Mirza"]} typeSpeed={80} />
                 </div>
 
@@ -22,7 +22,7 @@ export const HeaderInfo = () => {
                 </div>
             </div>
 
-            <div className="text-sm sm:text-base lg:text-lg mt-2 md:mt-5 font-sans">
+            <div className="text-lg mt-2 md:mt-5 font-sans">
                 I started my programming career with a blog. From
                 editing my xml templates to a full stack softwares.
                 I like to code and program in free time as hobby.
