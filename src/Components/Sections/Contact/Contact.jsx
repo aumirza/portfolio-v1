@@ -58,15 +58,15 @@ export const Contact = () => {
                     <div className="py-3 px-5 md:px-1 md:py-5 lg:py-8">
                         <div className="flex items-center mb-1 lg:mb-2">
                             <FaMailBulk className="mr-2 text-2xl lg:text-3xl" />
-                            <span className="text-xl">Mirzaahmad9028.am@gmail.com</span>
+                            <span className="text-lg">Mirzaahmad9028.am@gmail.com</span>
                         </div>
                         <div className="flex items-center mb-1 lg:mb-2">
                             <FaPhone className="mr-2 text-2xl lg:text-3xl" />
-                            <span className="text-xl">+91 9956763804</span>
+                            <span className="text-lg">+91 9956763804</span>
                         </div>
                         <div className="flex items-center mb-1 lg:mb-2">
                             <FaAddressCard className="mr-2 text-2xl lg:text-3xl" />
-                            <span className="text-xl">........</span>
+                            <span className="text-lg">........</span>
                         </div>
                     </div>
                 </div>
@@ -75,9 +75,9 @@ export const Contact = () => {
                     {
                         socials.map(social => (
 
-                            <span key={social.link} className="mx-2 lg:mx-3 hover:scale-110 duration-200">
+                            <span key={social.link} className="mx-2 lg:mx-3 hover:scale-125 duration-200">
                                 <a href={'https://' + social.link + '/' + social.username}>
-                                    <social.icon className="text-3xl lg:text-4xl" />
+                                    <social.icon className="text-4xl lg:tet-5xl" />
                                 </a>
                             </span>
                         ))

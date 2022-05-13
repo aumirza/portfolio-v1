@@ -44,12 +44,12 @@ export const Education = () => {
                     <div className="absolute ml-1 -z-0  border-white border-l-4 h-full"></div>
                 </div>
 
-                <div className="relative mt-10">
+                <div className="relative  my-8">
 
-                    <div className="absolute top-4 bg-gray-600 rounded-full border-4 border-white h-5 w-5"></div>
+                    <div className="absolute top-5 bg-gray-600 rounded-full border-4 border-white h-5 w-5"></div>
 
                     <Swiper className='h-48'
-                        slidesPerView={1.2}
+                        slidesPerView={1.3}
                         centeredSlides={true}
                         modules={[Mousewheel]}
                         onSlideChange={(e) => calculateSlides(e)}
@@ -62,11 +62,9 @@ export const Education = () => {
 
                                 <div className="flex relative">
 
-                                    <div className="ml-2">
-                                        <div className={"h-3 w-3 -ml-1 top-1 absolute bg-blue-500 rounded-full "}></div>
-                                    </div>
+                                    <div className={"h-3 w-3 mt-0.5 ml-1 absolute bg-blue-500 rounded-full "}></div>
 
-                                    <div className="ml-5">
+                                    <div className="ml-8">
 
                                         <h3 className=' text-lg lg:text-xl  font-semibold uppercase'>
                                             {education.institution}

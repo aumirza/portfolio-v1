@@ -5,7 +5,7 @@ export const SidebarToggle = ({ setshowSidebar, showSidebar }) => {
     return (
         <div
             onClick={() => setshowSidebar(showSidebar => !showSidebar)}
-            className={'flex z-30 duration-300 justify-center items-center fixed top-0 sm:hidden h-12 w-12 bg-slate-200'
+            className={'flex z-30 duration-300 justify-center items-center fixed top-0 sm:hidden h-12 w-12 bg-slate-200 rounded-br-2xl'
                 + " " + (showSidebar ? "left-56" : "left-0")} >
             {showSidebar ?
                 <FaTimes className='text-4xl' /> :

@@ -8,7 +8,7 @@ import { Works } from "../Sections/Works/Works"
 
 export const Content = () => {
     return (
-        <div className="car-scroll md:pl-60 lg:pl-80 overflow-y-auto">
+        <div className="car-scroll w-full sm:pl-60 lg:pl-80 overflow-y-auto overflow-x-hidden">
             <Header />
             <main>
                 <Features />
