@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/three": "^0.143.0",
     "autoprefixer": "^10.4.5",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.12",
